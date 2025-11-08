@@ -75,6 +75,8 @@ Minimal API calls, optimized layouts, and fast performance.
 ---
 
 ## 📂 Folder Structure (Short Overview)
+```
+
 📦 Recipes-App
 ├── 📁 app
 │ ├── 📁 manifests
