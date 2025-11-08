@@ -129,7 +129,7 @@ Minimal API calls, optimized layouts, and fast performance.
 │ ├── gradle-wrapper.properties
 │ ├── local.properties
 │ └── settings.gradle.kts
-
+```
 ---
 
 ## 🙌 Credits  
