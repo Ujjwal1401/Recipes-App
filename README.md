@@ -44,6 +44,8 @@ Efficient image loading with caching.
 
 ✅ **Lightweight & Optimized**  
 Minimal API calls, optimized layouts, and fast performance.
+
+
 ---
 
 ## ✅ Prerequisites  
@@ -73,30 +75,58 @@ Minimal API calls, optimized layouts, and fast performance.
 ---
 
 ## 📂 Folder Structure (Short Overview)
-app/
-├── manifests/
-│ └── AndroidManifest.xml
-├── java/com.practice.recipesapp/
-│ ├── MainActivity.kt
-│ ├── HomeActivity.kt
-│ ├── SearchActivity.kt
-│ ├── CategoryActivity.kt
-│ ├── RecipeActivity.kt
-│ ├── adapters/
-│ │ ├── CategoryAdapter.kt
-│ │ ├── PopularAdapter.kt
-│ │ └── SearchAdapter.kt
-│ ├── database/
+📦 Recipes-App
+├── 📁 app
+│ ├── 📁 manifests
+│ │ └── AndroidManifest.xml
+│ ├── 📁 java
+│ │ └── com.practice.recipesapp
 │ │ ├── AppDatabase.kt
+│ │ ├── CategoryActivity.kt
+│ │ ├── CategoryAdapter.kt
 │ │ ├── Dao.kt
-│ │ └── Recipe.kt
-│ └── model/
-├── res/
-│ ├── layout/.xml
-│ ├── drawable/.png/.xml
-│ ├── font/*.ttf
-│ └── mipmap/
-└── Gradle Scripts
+│ │ ├── HomeActivity.kt
+│ │ ├── MainActivity.kt
+│ │ ├── PopularAdapter.kt
+│ │ ├── Recipe.kt
+│ │ ├── RecipeActivity.kt
+│ │ ├── SearchActivity.kt
+│ │ └── SearchAdapter.kt
+│ │
+│ ├── 📁 java (generated)
+│ │ └── com.practice.recipesapp
+│ │ ├── AppDatabase_Impl
+│ │ ├── Dao_Impl
+│ │ └── recipe.db
+│ │
+│ ├── 📁 assets
+│ │ └── recipe.db
+│ │
+│ ├── 📁 res
+│ │ ├── 📁 drawable
+│ │ ├── 📁 font
+│ │ ├── 📁 layout
+│ │ │ ├── activity_category.xml
+│ │ │ ├── activity_home.xml
+│ │ │ ├── activity_main.xml
+│ │ │ ├── activity_recipe.xml
+│ │ │ ├── activity_search.xml
+│ │ │ ├── category_rv.xml
+│ │ │ ├── popular_rv_item.xml
+│ │ │ └── search_rv.xml
+│ │ ├── 📁 mipmap
+│ │ ├── 📁 values
+│ │ └── 📁 xml
+│ │ ├── backup_rules.xml
+│ │ └── data_extraction_rules.xml
+│ │
+│ └── 📁 Gradle Scripts
+│ ├── build.gradle.kts (Project)
+│ ├── build.gradle.kts (Module: app)
+│ ├── gradle.properties
+│ ├── gradle-wrapper.properties
+│ ├── local.properties
+│ └── settings.gradle.kts
 
 ---
 
@@ -110,6 +140,3 @@ app/
 ## ⭐ Support  
 If you like this project, **please give a star ⭐** to this repository!
 
-## 🤩 Don't forget to give ⭐ to this repository
-<img src="https://forthebadge.com/images/badges/built-with-love.svg">
-<img src="https://forthebadge.com/images/badges/made-with-kotlin.svg">
