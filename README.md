@@ -1,12 +1,57 @@
 # Recipes App ✨
 ![Android-kotlin](https://img.shields.io/badge/Android-Kotlin-blue.svg) ![glide](https://img.shields.io/badge/Library-Glide-orange.svg)
 
-## Introduction
-<li>Welcome to the Recipe App! This Android application is built with Kotlin and is designed to help users discover new recipes.</li>
+## 🌟 Introduction  
+Welcome to the **Recipes App**!  
+This Android application is built using **Kotlin**, **XML**, **Room Database**, and **ViewBinding**.  
+It helps users browse, search, and view delicious recipes with an easy and modern UI.
 
-## Prerequisites
-<li>Android Studio</li>
-<li>Kotlin SDK</li>
+---
+## 🚀 Features
+
+✅ **Browse Recipes**  
+Users can explore a wide range of recipes with attractive UI cards.
+
+✅ **Search Functionality**  
+Search any recipe instantly using the built-in search bar.
+
+✅ **Category-wise Filtering**  
+Recipes are organized into categories like:  
+- Main Course  
+- Dessert  
+- Drinks  
+- Salad  
+…and more!
+
+✅ **Detailed Recipe View**  
+Each recipe contains:  
+- Ingredients list  
+- Step-by-step cooking instructions  
+- Preparation time  
+- High-quality images
+
+✅ **Popular Recipes Section**  
+Highlights trending or frequently viewed recipes.
+
+✅ **Offline Support (Room Database)**  
+All recipe data is stored locally using **Room**, allowing offline access.
+
+✅ **Smooth & Modern UI**  
+Designed using XML, ViewBinding, custom shapes, and animations.
+
+✅ **Fast Image Loading (Glide)**  
+Efficient image loading with caching.
+
+✅ **Lightweight & Optimized**  
+Minimal API calls, optimized layouts, and fast performance.
+---
+
+## ✅ Prerequisites  
+- Android Studio (Latest version recommended)  
+- Kotlin SDK  
+- Minimum SDK Support: **Android 6.0+ (API 23+)**
+
+---
 
 ## Mobile App Screenshots 📸
 <p float="center">
@@ -18,11 +63,52 @@
   <img src="https://github.com/Ujjwal1401/Recipes-App/blob/280baf4d1a4ac637a4bcb0ad251080eab1129c6b/screenshots/Recipe_Steps.jpeg" title="Chatbot-2" height="450px" width="225px">
 </p>
 
-## Tech Stack 💻
-<ul>
-<li>Kotlin</li>
-<li>XML</li> 
-</ul>
+## 🧰 Tech Stack  
+- **Kotlin**  
+- **XML Layouts**  
+- **Room Database**  
+- **ViewBinding**  
+- **Glide** (for loading images)
+
+---
+
+## 📂 Folder Structure (Short Overview)
+app/
+├── manifests/
+│ └── AndroidManifest.xml
+├── java/com.practice.recipesapp/
+│ ├── MainActivity.kt
+│ ├── HomeActivity.kt
+│ ├── SearchActivity.kt
+│ ├── CategoryActivity.kt
+│ ├── RecipeActivity.kt
+│ ├── adapters/
+│ │ ├── CategoryAdapter.kt
+│ │ ├── PopularAdapter.kt
+│ │ └── SearchAdapter.kt
+│ ├── database/
+│ │ ├── AppDatabase.kt
+│ │ ├── Dao.kt
+│ │ └── Recipe.kt
+│ └── model/
+├── res/
+│ ├── layout/.xml
+│ ├── drawable/.png/.xml
+│ ├── font/*.ttf
+│ └── mipmap/
+└── Gradle Scripts
+
+---
+
+## 🙌 Credits  
+- UI Resources & Icons  
+- Kotlin & Android Documentation  
+- Open-source community  
+
+---
+
+## ⭐ Support  
+If you like this project, **please give a star ⭐** to this repository!
 
 ## 🤩 Don't forget to give ⭐ to this repository
 <img src="https://forthebadge.com/images/badges/built-with-love.svg">
